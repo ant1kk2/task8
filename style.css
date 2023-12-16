@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  min-width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: azure;
+  transition: background-color .3s ease;
+  font-size: 40px;
+}
+
+
+button:hover
+{
+  background-color: rgb(167, 255, 255);
+}
+
+button:active{
+  background-color: rgb(76, 202, 202);
+}
