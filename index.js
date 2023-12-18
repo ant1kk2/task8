@@ -16,10 +16,10 @@ function calcSum(_, val = "") {
 
   const arrayOfNumers = listOfNumbers.split(",");
 
-  if (arrayOfNumers.length >= MAX_LENGTH) {
+  /* if (arrayOfNumers.length >= MAX_LENGTH) {
     alert(`Забагато чисел. Ліміт - ${MAX_LENGTH}`);
     return calcSum(_, listOfNumbers);
-  }
+  } */
 
   if (arrayOfNumers[arrayOfNumers.length - 1].trim() === "") {
     //Обрізаємо останній елемент, якщо він пустий (приклад 2,3,43, === 2,3,43)
